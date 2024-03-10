@@ -1,40 +1,32 @@
 ![Screenshot 2024-03-08 211536](https://github.com/kosuri-indu/Taska/assets/118645569/bd0168bf-a2f0-4b6b-9c7d-24a3523c92bc) 
 
-# Taska : Your Task Manager
-Managing tasks effectively is crucial for productivity and organization. Taska offers an innovative solution to tackle task management challenges and promote efficient practices.
+# Taska : The Task Manager 📝
 
-## What Taska Does
+From prioritizing daily to-do lists to keeping track of long-term goals, staying organized with your tasks can greatly enhance your efficiency and effectiveness. Taska offers a simple yet powerful solution for managing your tasks seamlessly into sectors. With its interface, Taska allows you to quickly jot down tasks as they come to mind, ensuring that nothing slips through the cracks. Whether you're tackling personal errands, work assignments, or collaborative projects, Taska empowers you to stay on top of your tasks and achieve your goals with ease.
 
-- **Task Management**: Keep track of your tasks efficiently and stay organized with Taska's intuitive interface and powerful features.
-- **Deadline Tracking**: Set deadlines for your tasks and receive reminders to ensure you never miss an important deadline again.
-- **Priority Management**: Prioritize your tasks easily and focus on what matters most with Taska's priority management tools.
-
-## Why Choose Taska?
+## Why Taska?
 
 - **Productivity Boost**: Stay focused and productive by managing your tasks effectively with Taska's user-friendly features.
 - **Organization**: Keep all your tasks organized in one place and never forget an important task again.
-- **Efficiency**: Save time and effort by streamlining your task management process with Taska.
+- **Efficiency**: Save time and effort by streamlining your task management into sectors with Taska.
 
-## Key Features
+## Tech Stack
 
-1. **Task Management**: Keep track of all your tasks and stay organized with Taska's comprehensive task management tools.
-2. **Deadline Tracking**: Set deadlines for your tasks and receive timely reminders to ensure you meet all your deadlines.
-3. **Priority Management**: Prioritize your tasks easily and focus on what matters most with Taska's priority management features.
-
-## How We Are Building It?
 | Component        | Technology Stack                           |
-|------------------|---------------------------------------------|
+|------------------|--------------------------------------------|
 | **Frontend**     | HTML, CSS, JavaScript, Bootstrap Framework |
 | **Backend**      | NodeJs, MongoDB, EJS, Express              |
 
 ## Getting Started
 
-To get started with LegalEagle on your system, follow these simple steps:
+<!-- ### Try it out here : -->
+
+To get started with Taska on your system, follow these simple steps:
 
 1. Clone the repository:
    
    ```bash
-   git clone https://github.com/kosuri-indu/LegalEagle.git
+   git clone https://github.com/kosuri-indu/Taska.git
    ```
 1. Install the necessary dependencies using npm:
    
@@ -44,22 +36,16 @@ To get started with LegalEagle on your system, follow these simple steps:
 3. Run the application using node:
    
    ```bash
-   node server.js
+   node index.js
    ```
-
-## Lessons Learned
-
-- **User-Centric Design**: Prioritizing user experience highlighted the importance of intuitive design and functionality.
-- **Technological Innovation**: Leveraging modern technologies and frameworks expanded our capabilities in developing Taska.
-- **Productivity Impact**: Helping users boost productivity and stay organized emphasizes the significance of effective task management.
-
-## What's Next for Taska?
+   
+## What more can we do?
 
 | Next Steps                   | Description                                                |
 |-------------------------------|-------------------------------------------------------------|
-| Integration with Calendar Apps | Enable integration with popular calendar applications for seamless task scheduling and management. |
-| Collaboration Features | Implement collaboration features to allow users to share tasks and collaborate on projects. |
-| Continuous Improvement      | Gather user feedback to refine features and enhance usability for an even better task management experience. |
+| Improving Prompts to edit information | Enhance window prompts to modals for a more intuitive task editing process. |
+| Additional Features | Introduce collaboration features like Deadline Tracking and Priority Management |
+| Enhance UI  | Make a better User Interface for a more seamless task management experience. |
 
 <br/>
 <br/>
