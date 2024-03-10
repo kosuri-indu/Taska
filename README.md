@@ -2,7 +2,7 @@
 
 # Taska : The Task Manager 📝
 
-From prioritizing daily to-do lists to keeping track of long-term goals, staying organized with your tasks can greatly enhance your efficiency and effectiveness. Taska offers a simple yet powerful solution which allows you to quickly jot down tasks as they come to mind, ensuring that nothing slips through the cracks. Whether you're tackling personal errands, work assignments, or collaborative projects, Taska empowers you to stay on top of your tasks and achieve your goals with ease.
+From prioritizing daily to-do lists to keeping track of long-term goals, staying organized with your tasks can greatly enhance your efficiency and effectiveness. Taska offers a simple yet powerful solution which allows you to quickly jot down tasks as they come to mind, ensuring that nothing slips through the cracks.
 
 ## Why Taska?
 
