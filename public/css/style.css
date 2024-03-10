@@ -1,0 +1,182 @@
+body {
+    background-color: rgb(237, 158, 183) !important;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 1rem;
+}
+body.home-body {
+    height: 100vh;
+}
+.container-fluid {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.home-page{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #4a4a4a;
+}
+.tick {
+    background-color: rgb(237, 158, 183) !important;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: black;
+}
+.tick:hover {
+    opacity: 0.6;
+}
+.heading h1,
+.tick{
+    font-size: 4rem;
+    font-weight: 800;
+}
+.bottom {
+    position: absolute;
+    top: 0.625rem;
+    right: 0;
+}
+.newbox {
+    background-color: black;
+    display: flex;
+    position: fixed;
+    bottom: 0rem;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    padding: 1rem 1rem 1.3rem 2rem;
+    flex-direction: row;
+    z-index: 2;
+    border-radius: 1rem 1rem 0 0;
+}
+.newbox button,
+.box-footer button,
+.boxes .delete {
+    z-index: 1;
+    border: 2px solid black;
+    color: white;
+    background-color: rgb(220, 65, 114);
+}
+.box-footer button:hover,
+.boxes .delete:hover {
+    opacity: 0.6;
+    border: 2px solid black;
+    color: black;
+}
+.newbox button:hover {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+}
+.form-check .form-check-input {
+    background-color: white !important;
+}
+.form-check .form-check-input:checked {
+    background-color: #4a4a4a !important;
+    border: black;
+}
+.newbox .reset {
+    margin-top: 0.6rem;
+    height: 2.5rem;
+    margin-right: 1rem;
+}
+.edit-button:hover,
+.edit-button:active {
+    opacity: 0.3;
+}
+.newbox button {
+    margin-left: 1rem;
+}
+.edit-button i {
+    font-size: medium;
+    position: absolute;
+    top: 1.5rem;
+    right: 1.3rem;
+}
+.boxes .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #4a4a4a;
+}
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 1rem 2rem;
+    padding: 1rem 3rem;
+}
+.card {
+    transition: 0.3s;
+    width: 18rem;
+    margin: 1rem;
+    position: relative;
+    overflow: auto;
+    border-radius: 20px !important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 2px solid black !important;
+}
+.card:hover {
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.2);
+}
+.btn-close {
+    position: absolute;
+    right: 1rem;
+    display: none;
+}
+.box-footer .inp,
+.newbox .inp {
+    max-width: 8.5rem;
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 5px;
+    color: black;
+    padding-left: 0.8rem;
+}
+.addTaskContainer {
+    margin-top: 1rem;
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+}
+.boxes .delete {
+    background-color: rgb(220, 65, 114);
+    margin-top: 1rem;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    border-radius: 5px;
+}
+
+/* Media Queries */
+@media (max-width: 375px) {
+    .newbox {
+        flex-direction: row;
+        width: 100%;
+        padding: 1rem;
+        justify-content: center;
+    }
+    .addBoxForm {
+        width: 100%;
+    }
+}
+@media (max-width: 700px) {
+    .container-fluid {
+        flex-direction: column;
+    }
+    .boxes {
+        padding: 2rem 0rem;
+        margin: 0;
+    }
+    .input-group.top {
+        display: flex;
+        flex-wrap: nowrap;
+        padding: 0 0 1rem 1rem;
+    }
+}
+@media (max-width: 1500px) {
+    .boxes {
+        margin: 0rem;
+        padding: 2rem 0rem;
+    }
+}
