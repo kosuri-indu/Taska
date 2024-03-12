@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(237, 158, 183) !important;
+    background-color: #F0F8FF !important;
     font-family: 'Roboto', sans-serif;
     color: #333;
     margin: 0;
@@ -19,11 +19,13 @@ body.home-body {
     color: #4a4a4a;
 }
 .tick {
-    background-color: rgb(237, 158, 183) !important;
-    width: 100%;
+    background-color: #4682B4 !important;
+    width: 50%;
     height: 100%;
+    border-radius: 2rem;
     text-decoration: none;
     color: black;
+    border: 1px solid black;
 }
 .tick:hover {
     opacity: 0.6;
@@ -57,7 +59,7 @@ body.home-body {
     z-index: 1;
     border: 2px solid black;
     color: white;
-    background-color: rgb(220, 65, 114);
+    background-color: #4682B4;
 }
 .box-footer button:hover,
 .boxes .delete:hover {
@@ -114,11 +116,13 @@ body.home-body {
     position: relative;
     overflow: auto;
     border-radius: 20px !important;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.1);
     border: 2px solid black !important;
 }
 .card:hover {
     box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.2);
+    transform: scale(1.05); 
+    border-color: #4682B4 !important; 
 }
 .btn-close {
     position: absolute;
@@ -140,7 +144,7 @@ body.home-body {
     left: 1rem;
 }
 .boxes .delete {
-    background-color: rgb(220, 65, 114);
+    background-color:#4682B4;
     margin-top: 1rem;
     position: absolute;
     bottom: 1rem;
@@ -150,14 +154,9 @@ body.home-body {
 
 /* Media Queries */
 @media (max-width: 375px) {
-    .newbox {
-        flex-direction: row;
-        width: 100%;
-        padding: 1rem;
-        justify-content: center;
-    }
     .addBoxForm {
         width: 100%;
+        margin-left: 1rem;
     }
 }
 @media (max-width: 700px) {
@@ -172,6 +171,12 @@ body.home-body {
         display: flex;
         flex-wrap: nowrap;
         padding: 0 0 1rem 1rem;
+    }
+    .newbox {
+        flex-direction: row;
+        width: 100%;
+        padding: 1rem;
+        justify-content: center;
     }
 }
 @media (max-width: 1500px) {
