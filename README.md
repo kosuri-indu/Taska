@@ -26,7 +26,7 @@ From prioritizing daily to-do lists to keeping track of long-term goals, staying
 
 ## Getting Started
 
-### Try it out here :  <-- Available Soon -->
+### Try it out here : https://taska-manager.onrender.com
 <br>
 To get started with Taska on your side, follow these steps:
 
@@ -46,13 +46,11 @@ To get started with Taska on your side, follow these steps:
    node index.js
    ```
    
-<!-- ## What more can we do?
+## Improvements to be made
 
-| Next Steps                   | Description                                                |
-|-------------------------------|-------------------------------------------------------------|
-| Improving Prompts to edit information | Enhance window prompts to modals for a more intuitive task editing process. |
-| Additional Features | Introduce collaboration features like Deadline Tracking and Priority Management |
-| Enhance UI  | Make a better User Interface for a more seamless task management experience. |> -->
+- User Authentication for personalized data
+- Enhance window prompts to modals for a more intuitive task editing process. 
+- Introduce collaboration features like Deadline Tracking and Priority Management 
+-  Make a better User Interface for a more seamless task management experience.  
 
-<br/>
 <br/>
