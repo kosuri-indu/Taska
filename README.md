@@ -26,7 +26,7 @@ From prioritizing daily to-do lists to keeping track of long-term goals, staying
 
 ## Getting Started
 
-### Try it out here : https://taska-manager.onrender.com
+### Try it out here : <-- Available Soon -->
 <br>
 To get started with Taska on your side, follow these steps:
 
