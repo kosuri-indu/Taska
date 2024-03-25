@@ -5,6 +5,8 @@ const path = require("path");
 const methodOverride = require("method-override");
 const boxes = require("./routes/boxes.js");
 const initDB = require("./init/init.js"); 
+require('dotenv').config();
+const dbURL = process.env.ATLASDB_URL;
 
 main()
     .then(async () => {
@@ -16,7 +18,7 @@ main()
     });
 
 async function main(){
-    await mongoose.connect("mongodb://127.0.0.1:27017/todash");
+    await mongoose.connect(dbURL);
 }
 
 app.set("view engine","ejs");
