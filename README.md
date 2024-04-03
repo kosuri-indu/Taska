@@ -4,11 +4,7 @@
 
 From prioritizing daily to-do lists to keeping track of long-term goals, staying organized with your tasks can greatly enhance your efficiency and effectiveness. Taska offers a simple yet powerful solution which allows you to quickly jot down tasks as they come to mind, ensuring that nothing slips through the cracks.
 
-## Why Taska?
-
-- **Productivity Boost**: Stay focused and productive by managing your tasks effectively with Taska's features.
-- **Organization**: Keep all your tasks organized in one place and never forget an important task again.
-- **Efficiency**: Save time and effort by streamlining your task management into sectors with Taska.
+### Taska was built as a learning project to explore EJS, MongoDB, NodeJs and REST API integration.
 
 ## Key Features
 
@@ -22,11 +18,11 @@ From prioritizing daily to-do lists to keeping track of long-term goals, staying
 | Component        | Technology Stack                           |
 |------------------|--------------------------------------------|
 | **Frontend**     | HTML, CSS, JavaScript, Bootstrap Framework |
-| **Backend**      | NodeJs, MongoDB, EJS, Express              |
+| **Backend**      | NodeJs, MongoDB, EJS, Express, REST API    |
 
 ## Getting Started
 
-### Try it out here : <-- Available Soon -->
+### Try it out here : https://taska-manager.onrender.com/
 <br>
 To get started with Taska on your side, follow these steps:
 
@@ -45,12 +41,5 @@ To get started with Taska on your side, follow these steps:
    ```bash
    node index.js
    ```
-   
-## Improvements to be made
-
-- User Authentication for personalized data
-- Enhance window prompts to modals for a more intuitive task editing process. 
-- Introduce collaboration features like Deadline Tracking and Priority Management 
--  Make a better User Interface for a more seamless task management experience.  
 
 <br/>
