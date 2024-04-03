@@ -1,10 +1,10 @@
 ![Screenshot 2024-03-08 211536](https://github.com/kosuri-indu/Taska/assets/118645569/bd0168bf-a2f0-4b6b-9c7d-24a3523c92bc) 
 
+### Taska was built as a learning project to explore EJS, MongoDB, NodeJs and REST API integration.
+
 # Taska : The Task Manager 📝
 
 From prioritizing daily to-do lists to keeping track of long-term goals, staying organized with your tasks can greatly enhance your efficiency and effectiveness. Taska offers a simple yet powerful solution which allows you to quickly jot down tasks as they come to mind, ensuring that nothing slips through the cracks.
-
-### Taska was built as a learning project to explore EJS, MongoDB, NodeJs and REST API integration.
 
 ## Key Features
 
